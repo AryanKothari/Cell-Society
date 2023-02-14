@@ -1,0 +1,20 @@
+<Simulations>
+  <Simulation>
+    <type>Life</type>
+    <title>Conway's Game of Life</title>
+    <author>John Horton Conway</author>
+    <description> I expect to see the Beacon pattern of the Game of Life. This is interesting because the pattern is an oscillator! </description>
+    <width>6</width>
+    <height>6</height>
+    <!-- 0 = Dead, 1 = Alive -->
+    <initconfig>
+      0,0,0,0,0,0,
+      0,1,1,0,0,0,
+      0,1,1,0,0,0,
+      0,0,0,1,1,0,
+      0,0,0,1,1,0,
+      0,0,0,0,0,0
+    </initconfig>
+    <extra></extra>
+  </Simulation>
+</Simulations>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+
+<Simulations>
+    <Simulation>
+        <type>Segregation</type>
+        <title>A Study on Cellular Segregation</title>
+        <author>ethicsCenter</author>
+        <description> I expect to see a more unpredictable and dynamic simulation due to the fact that cells can "teleport" to unknown locations. This one is interesting because of how it is affected by a proportion of cells around it, instead of just a singular cell like the others. </description>
+        <width>8</width>
+        <height>4</height>
+        <initconfig>
+            2,1,2,1,0,1,2,1,
+            2,1,1,2,1,2,2,1,
+            0,1,2,2,1,2,1,2,
+            2,0,1,1,1,0,2,1,
+        </initconfig>
+        <!-- 1st extra = matchPercent, percent threshold that a cells number of neighbors must not go under. -->
+        <extra>0.3</extra>
+    </Simulation>
+</Simulations>

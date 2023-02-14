@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+
+<Simulations>
+  <Simulation>
+    <type>Spreading Fire</type>
+    <title>Forest Fire Simulation</title>
+    <author>smokeyBear</author>
+    <description> I expect to see a simulation of how fire spreads in a forest. I expect the fire to start small, then spread fast. This is an interesting example because it shows how a small spark can lead to something drastic. </description>
+    <width>128</width>
+    <height>128</height>
+    <initconfig>
+      random,0,1,2
+    </initconfig>
+    <!-- 1st extra = probCatch, 2nd extra = probTree -->
+    <extra>0.4</extra>
+    <extra>0.3</extra>
+  </Simulation>
+</Simulations>

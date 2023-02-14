@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Simulations>
+    <Simulation>
+        <!-- Ruh-roh! Where's the type??? -->
+        <title>National Geographic Reports on the Planet of WaTor</title>
+        <author>marineCenter</author>
+        <description> I expect to see a lot of interesting movement on this one as it has a lot of moving pieces. This one's interesting because of it's more complicated ruleset-- it could either completely fail, or show a really interesting balance. </description>
+        <width>16</width>
+        <height>8</height>
+        <!-- 0 is empty, 1 is a Fish, 2 is a Shark. -->
+        <initconfig>
+            0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,
+            0,0,0,1,0,0,1,1,0,0,1,1,0,2,1,1,
+            0,2,0,0,0,0,1,1,2,0,1,1,0,0,1,2,
+            0,0,2,0,0,0,1,1,0,2,1,1,0,2,1,1,
+            0,0,1,1,0,0,2,1,0,0,1,1,0,0,1,1,
+            0,0,1,1,0,0,1,1,0,2,1,1,0,0,1,1,
+            0,0,1,1,0,0,2,1,0,0,1,1,0,0,1,2,
+            0,0,1,1,0,0,1,1,0,0,1,2,0,0,1,1
+        </initconfig>
+        <!-- 1st extra = fishReproduceTime, 2nd extra = sharkReproduceTime, 3rd extra = sharkEnergyGain -->
+        <!-- 4th extra = sharkDeathRate, 5th extra = sharkInitialHealth -->
+        <extra>2</extra>
+        <extra>5</extra>
+        <extra>3</extra>
+        <extra>2</extra>
+        <extra>5</extra>
+    </Simulation>
+</Simulations>

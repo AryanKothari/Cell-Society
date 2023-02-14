@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+
+<Simulations>
+  <Simulation>
+    <type>Percolation</type>
+    <title>Solution to CS201 Assignment</title>
+    <author>thePlumber</author>
+    <description> I expect to see the cells act like water escaping through a crevice. This example is interesting because it shows how cellular automata could be used to solve real world problems, and not just be for scientific simulations. </description>
+    <width>64</width>
+    <height>128</height>
+    <initconfig>
+      random,0,1,2
+    </initconfig>
+    <extra></extra>
+  </Simulation>
+</Simulations>

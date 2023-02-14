@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+
+<Simulations>
+  <Simulation>
+    <type>*Replace with the Type of Simulation*</type>
+    <title>*Replace with the Title of the simulation-- what appears on the Titlebar!*</title>
+    <author>*Replace with an Author!*</author>
+    <description>*Replace with a description of the simulation!*</description>
+    <width>*Insert an INTEGER width value!*</width>
+    <height>*Insert an INTEGER height value!*</height>
+    <initconfig>
+      <!-- Can either be a 2d array of cell states that is consistent with the width and height -->
+      <!-- Or it can be a call for a random array of certain cell states. -->
+      <!-- Both are shown below, but both cannot be used at once. -->
+      <!-- Note that for both, the commas are VERY important! Will not work without each item -->
+      <!-- (including the random call) being separated by commas- exception being the last item -->
+      0,0,1,1,
+      0,0,0,1,
+      0,0,0,0,
+      0,0,0,0
+      <!-- or -->
+      random,0,1
+    </initconfig>
+    <!-- extra items are exclusive to a simulation. If your simulation has extra values, be sure -->
+    <!-- to enter in these FLOAT values! No non-numerical items here! -->
+    <!-- If you want multiple items, just do multiple tags. -->
+    <extra>23.2</extra>
+    <extra>0.45</extra>
+  </Simulation>
+</Simulations>

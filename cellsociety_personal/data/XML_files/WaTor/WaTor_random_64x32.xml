@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+
+<Simulations>
+  <Simulation>
+    <type>WaTor</type>
+    <title>National Geographic Reports on the Planet of WaTor</title>
+    <author>marineCenter</author>
+    <description> I expect to see a lot of interesting movement on this one as it has a lot of moving pieces. This one's interesting because of it's more complicated ruleset-- it could either completely fail, or show a really interesting balance. </description>
+    <width>64</width>
+    <height>32</height>
+    <!-- 0 is empty, 1 is a Fish, 2 is a Shark. -->
+    <initconfig>
+      random,0,1,2
+    </initconfig>
+    <!-- 1st extra = fishReproduceTime, 2nd extra = sharkReproduceTime, 3rd extra = sharkEnergyGain -->
+    <!-- 4th extra = sharkDeathTime, 5th extra = sharkInitialHealth -->
+    <extra>2</extra>
+    <extra>5</extra>
+    <extra>2</extra>
+    <extra>4</extra>
+    <extra>5</extra>
+  </Simulation>
+</Simulations>

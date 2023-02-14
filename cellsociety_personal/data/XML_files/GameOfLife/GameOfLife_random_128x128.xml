@@ -1,0 +1,15 @@
+<Simulations>
+  <Simulation>
+    <type>Life</type>
+    <title>Conway's Game of Life</title>
+    <author>John Horton Conway</author>
+    <description> I expect to see the cells be created and destroyed in ways I cannot predict. This is an interesting example because it is the simulation that popularized Cellular Automata. We can view this simulation to get a general idea of how most others will function. </description>
+    <width>128</width>
+    <height>128</height>
+    <!-- 0 = Dead, 1 = Alive -->
+    <initconfig>
+      random,0,1
+    </initconfig>
+    <extra></extra>
+  </Simulation>
+</Simulations>
